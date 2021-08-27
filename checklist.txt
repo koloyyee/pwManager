@@ -1,0 +1,11 @@
+Development Checklist:
+
+[x] Length of the password, how to input from console.
+[x] include Uppercase
+[x] include integers.
+[x] include symbols or signs.
+[] Answers validations
+[x] use random package
+[] use strings package
+[] hashing password
+[] storing password
