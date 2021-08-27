@@ -4,8 +4,8 @@ Development Checklist:
 [x] include Uppercase
 [x] include integers.
 [x] include symbols or signs.
-[] Answers validations
+[x] Answers validations
 [x] use random package
-[] use strings package
+[x] use strings package
 [] hashing password
 [] storing password
