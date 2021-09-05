@@ -1,11 +1,5 @@
-Development Checklist:
-
-[x] Length of the password, how to input from console.
-[x] include Uppercase
-[x] include integers.
-[x] include symbols or signs.
-[x] Answers validations
-[x] use random package
-[x] use strings package
-[] hashing password
-[] storing password
+[] flag package
+[] crypto/rand package
+[] flag arg takes: username, length, uppercase, symbols
+[] generate random password
+[] CRUD for the password

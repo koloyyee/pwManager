@@ -8,6 +8,11 @@ import (
 	"strings"
 )
 
+type Validation interface {
+	InputValidator() (int, string, string)
+	Inputs() Inputs
+}
+
 type Inputs struct {
 	Length, Uppercase, Symbols string
 }
@@ -28,7 +33,7 @@ func Input() Inputs {
 }
 
 // InputValidator check the values are correct.
-func InputValidator(i Inputs) (int, string, string) {
+func (i Inputs) InputValidator() (int, string, string) {
 	correctInput := false
 	var length int
 	var upper, symbols string
