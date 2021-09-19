@@ -1,6 +1,10 @@
 # Password Manager
 This is a go learning project of creating a simple password manager that spawn random passwords.
 
+Function to be added:
+- Password Vault
+- Password encryption
+
 ## Password Generator
 
 it will be a CLI application, here are questions the user will be ask before generating a new password.
