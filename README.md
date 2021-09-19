@@ -1,8 +1,8 @@
-# Password Generator
+# Password Manager
+This is a go learning project of creating a simple password manager that spawn random passwords.
 
-## v0.2
+## Password Generator
 
-This is a golang project of Password Generator
 it will be a CLI application, here are questions the user will be ask before generating a new password.
 
 1. Length of the password
