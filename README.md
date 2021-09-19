@@ -13,7 +13,7 @@ it will be a CLI application, here are questions the user will be ask before gen
 
 4. include symbols or signs.
 
-`go build` to generate `./pwgen` file.
+`go build` to build file.
 The input for the flag will be as follow:
 
 -name=
